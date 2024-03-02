@@ -1,0 +1,889 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+body {
+    font-family: "Space Grotesk";
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 375px;
+}
+
+.header {
+    display: flex;
+    background-color: #151515;
+    background-image: url(images/pattern-rings.svg), url(images/pattern-circle.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 188px top 124px, right -65px bottom 40px;
+}
+
+.profile {
+    position: relative;
+    width: 174px;
+    height: 383px;
+    margin: 0 100px 40px;
+}
+
+.content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.header h2 {
+    width: 129px;
+    height: 32px;
+    margin: 20px 123px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 32px;
+    letter-spacing: -0.33px;
+    color: #fff;
+}
+
+.icons {
+    margin: 0 110px;
+    display: flex;
+}
+
+.github {
+    width: 19.7px;
+    height: 19.2px;
+    margin-right: 25.6px;
+}
+
+.frontend {
+    width: 19.2px;
+    height: 18px;
+    margin-right: 25.6px;
+}
+
+.linkdin {
+    width: 19.2px;
+    height: 19.2px;
+    margin-right: 25.6px;
+}
+
+.twitter {
+    width: 18.6px;
+    height: 15.1px;
+    align-self: center;
+}
+
+.profile-info {
+    background-color: #151515;
+    margin-top: -1px;
+}
+
+h1 {
+    width: 343px;
+    height: 80px;
+    margin: auto;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 40px;
+    letter-spacing: -1.14px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+
+.line {
+    width: 225px;
+    height: 4px;
+    margin: -1px 48px 0 102px;
+    background-color: #4ee1a0;
+    position: absolute;
+    z-index: 1;
+}
+
+.profile-info p {
+    width: 343px;
+    height: 78px;
+    margin: auto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    color: #d9d9d9;
+    margin-top: 23px;
+    margin-bottom: 24px;
+}
+
+.profile-info h2 {
+    width: 117px;
+    height: 26px;
+    margin: auto;
+    font-size: 15.6px;
+    font-weight: bold;
+    line-height: 26px;
+    letter-spacing: 2.29px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.line-2 {
+    width: 120px;
+    height: 2px;
+    margin: auto;
+    background-color: #4ee1a0;
+}
+
+.line-3 {
+    width: 343px;
+    height: 2px;
+    margin: 80px 16px -1px 16px;
+    background-color: #fff;  
+}
+
+.experience {
+    height: 667px;
+    background-color: #151515;
+    background-image: url(images/pattern-rings.svg);
+    background-repeat: no-repeat;
+    background-position: right -343px bottom 6px;
+    padding-top: 40px;
+}
+
+.experience h2 {
+    margin: auto;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 40px;
+    letter-spacing: -1px;
+    text-align: center;
+    color: #fff;
+}
+
+.experience h4 {
+    margin: auto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    color: #d9d9d9;
+    margin-bottom: 24px;
+}
+
+.line-4 {
+    width: 343px;
+    height: 1px;
+    margin: 40px 16px 0;
+    background-color: #fff;
+}
+
+.project {
+    margin: -1px 0;
+    background-color: #151515;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px;
+}
+
+.project h2 {
+    width: 152px;
+    height: 40px;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 40px;
+    letter-spacing: -1.14px;
+    text-align: left;
+    color: #fff;   
+}
+
+.project h3 {
+    width: 117px;
+    height: 26px;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 26px;
+    letter-spacing: 2.29px;
+    text-align: left;
+    color: #fff;
+    cursor: pointer;
+}
+
+.project h3:hover {
+    color: #4ee1a0;
+}
+
+.line-5 {
+    width: 120px;
+    height: 2px;
+    background-color: #4ee1a0;
+    margin-top: 10px;
+}
+
+.contact-me {
+    background-color: #151515;
+    display: flex;
+    flex-direction: column;
+}
+
+.design-portfolio, .landing-page, .todo, .entertainment, .art-gallery, .memory-game {
+    background-color: #151515;
+}
+
+.design-portfolio img, .landing-page img, .todo img, .entertainment img, .memory-game img, .art-gallery img {
+    width: 343px;
+    height: 253px;
+    margin: 40px 16px 20px;
+}
+
+.design-portfolio h2, .entertainment h2, .todo h2, .landing-page h2, .memory-game h2, .art-gallery h2 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 32px;
+    text-align: left;
+    color: #fff;
+    margin: 0 56px 0 16px;
+}
+
+.design-portfolio h3, .landing-page h3, .todo h3, .memory-game h3, .entertainment h3, .art-gallery h3 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    color: #d9d9d9;
+}
+
+.design-portfolio h4, .landing-page h4, .todo h4, .entertainment h4, .art-gallery h4, .memory-game h4 {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 26px;
+    letter-spacing: 2.29px;
+    text-align: left;
+    color: #fff;
+    cursor: pointer;
+}
+
+.design-portfolio h4:hover, .landing-page h4:hover, .todo h4:hover, .entertainment h4:hover, .art-gallery h4:hover, .memory-game h4:hover {
+    color: #4ee1a0;
+}
+
+.html-css, .html-css-2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 7px 259px 20px 16px;
+}
+
+.line-6, .line-8, .line-10, .line-12, .line-14, .line-16 {
+    width: 138px;
+    height: 2px;
+    margin: 10px 0 0;
+    background-color: #4ee1a0;
+}
+
+.line-7, .line-9, .line-11, .line-13, .line-15, .line-17 {
+    width: 103px;
+    height: 2px;
+    margin: 10px 0 0;
+    background-color: #4ee1a0;
+}
+
+.view, .view-2, .view-3, .view-4, .view-5, .view-6 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 88px -1px 16px;
+}
+
+
+.html-css-3, .html-css-4, .html-css-5, .html-css-6 {
+    display: flex;
+    justify-content: space-between;
+    margin: 7px 136px 20px 16px;
+}
+
+.art-gallery {
+    padding-bottom: 80px;
+}
+
+.contact {
+    margin-top: -1px;
+    padding: 60px 0;
+    background-color: #242424;
+    background-image: url(images/pattern-rings.svg);
+    background-repeat: no-repeat;
+    background-position: top 430px right 180px;
+}
+
+.contact h2 {
+    width: 343px;
+    height: 40px;
+    margin: auto;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: -1.14px;
+    text-align: center;
+    color: #fff;
+    margin-top: 0;
+}
+
+.contact p {
+    width: 343px;
+    height: 78px;
+    margin: auto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    color: #d9d9d9;   
+    margin-top: 20px; 
+}
+
+input {
+    background-color: #242424;
+    outline: none;
+    border: none;
+    font-family: "Space Grotesk";
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -0.22px;
+    color: #fff;  
+}
+
+.inputField-name {
+    margin: 50px 0 16px 40px;
+}
+
+.line-input1, .line-input2, .line-input3 {
+    width: 343px;
+    height: 1px;
+    background-color: #fff;
+    margin: 0 16px;
+}
+
+::placeholder {
+    opacity: 0.5;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.63;
+    letter-spacing: -0.22px;
+    color: #fff;
+}
+
+.inputField-email {
+    margin: 32px 0 16px 40px;
+}
+
+.error {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin: 0 0 0 90px;
+    padding: 3px 11px;
+    border: solid 1px #ff6f5b;
+    color: #ff6f5b;
+    align-self: center;
+    display: none;
+}
+
+.errorMessage {
+    width: 142px;
+    margin: 5px 16px 0 215px;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: -0.17px;
+    color: #ff6f5b;  
+    display: none;
+}
+
+.valid {
+    border-bottom: 2px solid #4ee1a0;
+}
+
+.invalid {
+    border-bottom: 2px solid #ff6f5b;
+}
+
+.inputField-message {
+    margin: 32px 0 80px 40px;
+}
+
+.contact h4 {
+    width: 142px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #fff;
+    margin: 32px 18px 10px 215px;
+    cursor: pointer;
+}
+
+.contact h4:hover {
+    color: #4ee1a0;
+}
+
+.line-message {
+    width: 144px;
+    height: 2px;
+    background-color: #4ee1a0;
+    margin: 0 16px 87px 215px;
+}
+
+.line-message2 {
+    width: 343px;
+    height: 1px;
+    background-color: #fff;
+    margin: 0 16px 39px;    
+}
+
+.content-2 h2 {
+    width: 129px;
+    margin: auto;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 32px;
+    letter-spacing: -0.33px;
+    color: #fff;   
+}
+
+.icons-2 {
+    margin: 20px 110px 0;
+    display: flex;
+}
+
+.github-2 {
+    width: 19.7px;
+    height: 19.2px;
+    margin-right: 25.6px;
+    cursor: pointer;
+}
+
+.frontend-2 {
+    width: 19.2px;
+    height: 18px;
+    margin-right: 25.6px;
+    cursor: pointer;
+}
+
+.linkdin-2 {
+    width: 19.2px;
+    height: 19.2px;
+    margin-right: 25.6px;
+    cursor: pointer;
+}
+
+.twitter-2 {
+    width: 18.6px;
+    height: 15.1px;
+    align-self: center;
+    cursor: pointer;
+}
+
+.twitter-2:hover, .github-2:hover, .linkdin-2:hover, .frontend-2:hover {
+    filter: invert(70%) sepia(60%) saturate(230%) hue-rotate(101deg) brightness(210%) contrast(120%);
+}
+
+.circle, .profile-info-comp, .profile-comp, .rings, .project-1-large, .project-2-large, .project-3-large,
+.project-4-large, .project-5-large, .project-6-large {
+    display: none;
+}
+
+.view-6-comp, .view-5-comp, .view-4-comp, .view-3-comp, .view-2-comp, .view-comp {
+    display: none;
+}
+
+@media screen and (min-width:1440px) {
+
+    .circle, .profile-info-comp, .profile-comp, .rings, .project-1-large, .project-2-large, .project-3-large,
+    .project-4-large, .project-5-large, .project-6-large {
+        display: block;
+    }
+     
+    .profile-info, .profile, .line-4, .project-1-small, .project-2-small, .project-3-small,
+    .project-4-small, .project-5-small, .project-6-small {
+        display: none;
+    }
+
+    .container {
+        width: 1440px;
+    }
+
+    .header {
+        position: relative;
+        display: flex;
+        z-index: 1;
+        background-position: right -9999px top -9999px, right -9999px top -9999px, right -9999px bottom -9999px;
+    }
+
+    .rings {
+        position: absolute;
+        z-index: 1;
+        margin: 133px 1010px 0 -100px;
+    }
+
+    .circle {
+        position: absolute;
+        width: 129px;
+        height: 129px;
+        margin: 521px 545px 0 766px;
+        object-fit: contain;
+        border: solid 1px #fff;
+        border-radius: 50%;  
+        z-index: 1;  
+    }
+
+    .profile-comp {
+        width: 445px;
+        height: 720px;
+        margin: 0 165px 104px 830px;
+        z-index: 1;
+    }
+    
+    .content {
+        flex-direction: unset;
+        justify-content: space-between;
+    }
+    
+    .header h2 {
+        width: 172px;
+        margin: 39px 716px 0 165px;
+        font-size: 32px;
+        letter-spacing: -0.44px;
+    }
+    
+    .icons {
+        margin: 39px 194px 0 0;
+        display: flex;
+    }
+    
+    .github {
+        width: 24.6px;
+        height: 24px;
+        margin-right: 32px;
+    }
+    
+    .frontend {
+        width: 24.6px;
+        height: 22px;
+        margin-right: 32px;
+    }
+    
+    .linkdin {
+        width: 24px;
+        height: 24px;
+        margin-right: 32px;
+    }
+    
+    .twitter {
+        width: 23.3px;
+        height: 18.9px;
+        align-self: center;
+    }
+    
+    .profile-info-comp {
+        background-color: #151515;
+        margin-top: -1px;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .profile-info-comp h2 {
+        position: relative;
+        z-index: 1;
+        width: 706px;
+        margin: 198px 569px 0 165px;
+        font-size: 88px;
+        font-weight: bold;
+        line-height: 88px;
+        letter-spacing: -2.5px;
+        text-align: start;
+        color: #fff;
+    }
+    
+    .line {
+        width: 492px;
+        height: 6px;
+        margin: 374px 646px 0 302px;
+        position: absolute;
+        z-index: 1;
+    }
+    
+    .profile-info-comp p {
+        width: 445px;
+        height: 84px;
+        margin: 198px 830px 0 165px;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: start;
+        color: #d9d9d9;
+    }
+    
+    .profile-info-comp h3 {
+        width: 117px;
+        height: 26px;
+        margin: 66px 1158px 10px 165px;
+        font-size: 15.6px;
+        font-weight: bold;
+        line-height: 26px;
+        letter-spacing: 2.29px;
+        color: #fff;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+
+    .profile-info-comp h3:hover {
+        color: #4ee1a0;
+    }
+    
+    .line-2 {
+        margin: 0 1155px 0 165px;
+    }
+    
+    .line-3 {
+        width: 1110px;
+        margin: 200px 165px -1px 165px; 
+    }
+    
+    .experience {
+        height: 466px;
+        background-image: url(images/pattern-rings.svg);
+        background-repeat: no-repeat;
+        background-position: right -230px bottom 90px;
+        padding: 72px 165px 0;
+    }
+
+    .experience-1 {
+        display: flex;
+    }
+    
+    .experience-2 {
+        display: flex;
+    }
+
+    .experience h2 {
+        width: 345px;
+        margin-bottom: 14px;
+        font-size: 48px;
+        line-height: 56px;
+        letter-spacing: -1.5px;
+        text-align: start; 
+    }
+    
+    .experience h4 {
+        width: 345px;
+        margin: auto;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: start;
+        color: #d9d9d9;
+        margin-bottom: 58px;
+    }
+
+    .html, .css, .accessibility, .react {
+        margin-right: 30px;
+    }
+
+    .project {
+        margin: -1px;
+        padding: 0 165px;
+        align-items: center;
+    }
+    
+    .project h2 {
+        width: 334px;
+        height: 88px;
+        font-size: 88px;
+        line-height: 88px;
+        letter-spacing: -2.5px;
+    }
+
+    .wrapper {
+        width: 1440px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 69px 30px;
+        background-color: #151515;
+        padding: 80px 165px 139px;
+    }
+
+    .design-portfolio, .landing-page, .todo, .entertainment, .art-gallery, .memory-game {
+        width: 540px;
+        background-color: #151515;
+    }
+    
+    .design-portfolio img, .landing-page img, .todo img, .entertainment img, .memory-game img, .art-gallery img {
+        width: 540px;
+        height: 400px;
+        margin: 0 0 20px;
+    }
+    
+    .design-portfolio h2, .entertainment h2, .todo h2, .landing-page h2, .memory-game h2, .art-gallery h2 {
+        text-align: start;
+        margin: 0;
+    }
+    
+    .html-css, .html-css-2 {
+        justify-content: unset;
+        margin: 7px 0 0;
+        text-align: start;
+    }
+    
+    .view, .view-2, .view-3, .view-4, .view-5, .view-6 {
+       display: none;
+    }
+    
+    .html-css-3, .html-css-4, .html-css-5, .html-css-6 {
+        justify-content: unset;
+        text-align: start;
+        margin: 7px 0 0;
+    }
+
+    .design-portfolio h3, .landing-page h3, .todo h3, .memory-game h3, .entertainment h3, .art-gallery h3 {
+       margin-right: 19px;
+    }
+    
+    .art-gallery {
+        padding-bottom: 0;
+    }
+   
+    .contact {
+        margin-top: -1px;
+        padding: 84px 0 92px;
+        background-color: #242424;
+        background-image: url(images/pattern-rings.svg);
+        background-repeat: no-repeat;
+        background-position: top 325px right 1115px;
+    }
+
+    .contact-info {
+        display: flex;
+    }
+    
+    .contact h2 {
+        width: 330px;
+        height: 88px;
+        margin: 0 335px 36px 165px;
+        font-size: 88px;
+        letter-spacing: -2.25px;
+        text-align: start;
+    }
+    
+    .contact p {
+        width: 445px;
+        height: 84px;
+        margin: 0 220px 0 165px;
+        font-size: 18px;
+        text-align: start;
+    }
+    
+    .inputField-name {
+        margin: 10px 0 16px 24px;
+    }
+
+    .line-input1, .line-input2, .line-input3 {
+        width: 445px;
+    }
+    
+    .inputField-email {
+        margin: 32px 0 16px 24px;
+    }
+    
+    .error {
+        margin: 0 0 0 207px;
+    }
+    
+    .errorMessage {
+        margin: 5px 16px 0 320px;
+    }
+    
+    .inputField-message {
+        margin: 32px 0 80px 24px;
+    }
+    
+    .contact h4 {
+        margin: 32px 18px 10px 320px;
+    }
+    
+    .line-message {
+        margin: 0 16px 87px 320px;
+    }
+    
+    .line-message2 {
+        width: 1110px;
+        margin: 0 165px;    
+    }
+
+    .content-2 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .content-2 h2 {
+        width: 172px;
+        height: 32px;
+        margin: 47px 0 0 165px;
+        font-size: 32px;
+        letter-spacing: -0.44px;
+    }
+    
+    .icons-2 {
+        margin: 52px 165px 0 0;
+        display: flex;
+    }
+    
+    .github-2 {
+        width: 24.6px;
+        height: 24px;
+        margin-right: 32px;
+    }
+    
+    .frontend-2 {
+        width: 24.6px;
+        height: 22px;
+        margin-right: 32px;
+    }
+    
+    .linkdin-2 {
+        width: 24px;
+        height: 24px;
+        margin-right: 32px;
+    }
+    
+    .twitter-2 {
+        width: 23.3px;
+        height: 18.9px;
+        align-self: center;
+    }
+
+    .common {
+        position: relative;
+    }
+    
+    .common:hover .project-6-large, .common:hover .project-1-large, .common:hover .project-2-large, .common:hover .project-3-large, .common:hover .project-4-large, .common:hover .project-5-large {
+        width: 540px;
+        height: 400px;
+        opacity: 0.2;
+        background-color: #000;
+        cursor: pointer;
+    }
+    
+    .view-6-comp, .view-comp, .view-3-comp, .view-5-comp, .view-4-comp, .view-2-comp {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: none;
+    }
+    
+    .common:hover .view-6-comp, .common:hover .view-comp, .common:hover .view-2-comp,
+    .common:hover .view-3-comp,  .common:hover .view-4-comp,  .common:hover .view-5-comp {
+        display: block;
+    }
+
+    .view-project {
+        padding: 0 201px;
+        margin-bottom: 48px;
+    }
+
+    .view-code {
+        padding: 0 221px;
+    }
+}
